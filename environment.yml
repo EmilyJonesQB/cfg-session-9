@@ -1,0 +1,16 @@
+name: cfg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - pip
+  - pip:
+    - nbgitpuller
+    - pandas
+    - matplotlib
+    - xlrd
+    - seaborn
+    - numpy
+    - sklearn
+    - scipy
